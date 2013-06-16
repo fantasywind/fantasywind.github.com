@@ -32,6 +32,53 @@
   <header>
     
   
+    <h1 class="title"><a href="/2013/06/16/angular-service-provider-factory/">Angular Service, Provider, Factory</a></h1>
+  
+
+    <time datetime="2013-06-16T10:23:24.000Z">
+  <span class="day">16</span><span class="month">6月</span>
+</time>
+  </header>
+  <div class="entry-content">
+    
+      <h1>Angular 三種建構函式的差異</h1>
+<h2>Service</h2>
+<p>建構式中傳入的 this 可以任意給予 Property/Method
+當 Controller 引用的時候會直接將這個 this scope 回傳使用，算是最基本的包裝</p>
+<h2>Factory</h2>
+<p>Controller 引用的時候會將建構式的回傳值物件 (Return Object) 包裝
+在建構時可以不用擔心 this scope 的汙染問題</p>
+<h2>Provider</h2>
+<p>Getter 的概念
+不同於 Service 回傳整個建構式的 this scope 只會回傳 this.$get 的內容
+此外 this.$get 需為一個函式，於 Controller 引用的時候會即時 call function
+可以透過私有函數的方法輕易弄成迭代器 (iterator)</p>
+<p>網路上有人寫好的 Gist Example</p>
+<script src="https://gist.github.com/3639232.js"></script>
+
+    
+    
+    <footer class="meta">
+      
+  <div class="cats">
+<a href="/categories/WebDevelop/">WebDevelop</a></div>
+
+      
+  <div class="tags">
+<a href="/tags/Angular/">Angular</a></div>
+
+      
+    </footer>
+    
+  </div>
+  
+</article>
+
+  <article class="post">
+  
+  <header>
+    
+  
     <h1 class="title"><a href="/2013/06/16/hello-world/">Hello World</a></h1>
   
 

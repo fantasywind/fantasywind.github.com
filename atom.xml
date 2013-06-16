@@ -3,7 +3,7 @@
   <title><![CDATA[Fantasyatelier]]></title>
   <link href="http://fantasywind.github.com//atom.xml" rel="self"/>
   <link href="http://fantasywind.github.com/"/>
-  <updated>2013-06-16T10:36:32.141Z</updated>
+  <updated>2013-06-16T10:41:20.982Z</updated>
   <id>http://fantasywind.github.com//</id>
   <author>
     <name><![CDATA[Chai Yu Pai]]></name>
@@ -15,7 +15,7 @@
     <link href="http://fantasywind.github.com//2013/06/16/angular-service-provider-factory/"/>
     <id>http://fantasywind.github.com//2013/06/16/angular-service-provider-factory/</id>
     <published>2013-06-16T10:23:24.000Z</published>
-    <updated>2013-06-16T10:36:29.000Z</updated>
+    <updated>2013-06-16T10:40:50.000Z</updated>
     <content type="html"><![CDATA[<h1>三種 Angular.Module 建構函式的差異</h1>
 <h2>Service</h2>
 <p>建構式中傳入的 this 可以任意給予 Property/Method
